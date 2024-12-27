@@ -1,0 +1,36 @@
+:root {
+  --background: #f3f4f6;
+  --foreground: #111928; /* สีตัวอักษรทั่วไป */
+  --primary: #22c55e; /* สีเขียว */
+  --secondary: #6b7280; /* สีรอง */
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  margin: 0;
+}
+
+.button-green {
+  background-color: var(--primary);
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.button-green:hover {
+  background-color: #16a34a; /* สีเขียวเข้มขึ้น */
+}
+
+.text-green {
+  color: var(--primary);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.text-green:hover {
+  color: #16a34a;
+}
+
+box {
+  background-color: #ffffff;
+}
